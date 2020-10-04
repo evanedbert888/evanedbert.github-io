@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title> My Portofolio </title>
+
+<style>
+body {
+  Text-align: center;
+  Background-color: LightSkyBlue;
+}
+
+.form {
+  Border: 5px solid White;
+  Padding: 5px;
+  Margin: 5px;
+}
+
+p {
+  Font-size: 20px;
+}
+
+.resize {
+  Width: 45%;
+  Height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+</style>
+</head>
+
+<body>
+<div class="form">
+<h1> My Portofolio </h1>
+<img class="resize" src="Images/Profile.jpg" alt="My Photo">
+<p> My Photo </p>
+<a href="https://www.linkedin.com/in/evan-edbert-32038b1b7/">
+<img src="Images/Linkedln.jpg" alt="Linkedln" style=
+"Width: 2%; Height: auto;">
+</a>
+</div>
+
+<div class="form">
+<h2> Introduction </h2>
+
+<p> My name is Evan Edbert, a university student from Binus University of Kemanggisan Branch. I started my college from 2018 till 2023. </p>
+<p> Currently, I am taking the master track of computer science during my fifth semester. </p>
+<p> This is a photo of my friends and I during the orientation of first semester. </p>
+<img class="resize" src="Images/Orientation.jpg" alt="Orientation">
+</div>
+
+<div class="form">
+<h2> My experience during college days </h2>
+
+<h3> Organization </h3>
+<img src="Images/HIMTI.jpg" alt="Negotiation" style=
+"Width: 30%; Height: auto;">
+<p> HIMTI is an organization that supports the computer science course in Binus University. It stands for "Himpunan Teknik Informatika". <p>
+<p> I am part of the second commission that handles the relationship in & outside HIMTI. <p>
+<p> This is a picture of a drink shop owner and me during a cooperation negotiation. </p>
+<img src="Images/Negotiation.jpg" alt="Negotiation" style=
+"Width: 30%; Height: auto;">
+<p> Our anniversary party in 2019. </p>
+<img class="resize" src="Images/HIMTI Anniv.jpg" alt="HIMTI Anniv 2019">
+<p> In HIMTI, I also learned how to speak up as MC during events. </p>
+<img class="resize" src="Images/MC.jpg" alt="MC">
+<p> A photo of two guest speakers and me. </p>
+</div>
+
+<div class="form">
+<h2> Skills </h2>
+<h3> Writing </h3>
+<p> I am still a beginner yet quite confident in my writing. Guide me and I will show what I can do. The funny thing is that my writing is quite a haywire in several occasions. </p>
+<p> Whether the maximum is more than 5 pages or 1000 words, I can make it longer if it is possible and vice-versa. Therefore, it is one of my skills. </p>
+<p> This is a digital certificate I got for participating in a short story competition. </p>
+<img class="resize" src="Images/Certificate.jpg" alt="Certificate">
+
+<h3> UI/UX Design </h3>
+<p> I am quite interested in UI/UX design so currently, I am learning what does it takes to be one. </p>
+<p> These are the examples of UI design made for my final test of Human Computer Interaction course. </p> 
+<div class="row">
+<div class="column">
+<img class="resize" src="Images/Register.jpg" alt="First example">
+</div>
+<div class="column">
+<img class="resize" src="Images/Main.jpg" alt="Second example">
+</div>
+<div class="column">
+<img class="resize" src="Images/Forum.jpg" alt="Third example">
+</div>
+</div>
+<img class="resize" src="Images/Wireflow.jpg" alt="Wireflow">
+</div>
+</body>
+
+</html>
